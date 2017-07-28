@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Grid>
+        <Grid fluid>
           <Row>
             <Col xs={3}>
               <Card textoTitulo="20" texto="New followers added this month"/>
@@ -23,7 +23,19 @@ class App extends Component {
               <Card textoTitulo="18°" texto="Paris"/>
             </Col>
           </Row>
-        </Grid>  
+          <Row>
+            <Col xs={9}>
+              <Card textoTitulo="20" texto="New followers added this month"/>
+              <Card textoTitulo="20" texto="New followers added this month"/>
+            </Col>
+            <Col xs={3}>
+              <Card textoTitulo="18°" texto="Paris"/>
+              <Card textoTitulo="18°" texto="Paris"/>
+              <Card textoTitulo="18°" texto="Paris"/>
+              <Card textoTitulo="18°" texto="Paris"/>
+            </Col>
+          </Row>
+        </Grid>
 
 
 
